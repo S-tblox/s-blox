@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+
+Sitemap: http://www.shitblox.com/sitemap.xml
+Sitemap: http://shitblox.com/sitemap.xml
+Sitemap: https://www.shitblox.com/sitemap.xml
+Sitemap: https://shitblox.com/sitemap.xml

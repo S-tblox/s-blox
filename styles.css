@@ -1,0 +1,71 @@
+body {
+        margin-top: 15%;
+        background-image: url("space.gif");
+        
+        background-size: 100%;
+      }
+	  h2 {
+		position: absolute;
+		margin-left: 25%;
+		margin-top: 35%;
+	  }
+      #container {
+        width: 400px;
+        height: 400px;
+        background: green;
+        border-radius: 50%;
+        background-image: url("earthy.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 115%;
+        z-index: 0;
+	
+      }
+      #animate {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        background-color: grey;
+        border-radius: 100%;
+        z-index: 2;
+		float: left;
+		
+      }
+      #earth {
+        border-radius: 50%;
+        background-image: url("earthy.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 115%;
+        float: left;
+        z-index: -1;
+        position: relative;
+		transform: rotate(45deg);
+      }
+      .rainbow-button {
+        width: calc(20vw + 6px);
+        height: calc(8vw + 6px);
+        max-width: 100px;
+        max-height: 50px;
+        background-image: linear-gradient(
+          90deg,
+          #00c0ff 0%,
+          #ffcf00 49%,
+          #fc4f4f 80%,
+          #00c0ff 100%
+        );
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+      }
+      .rainbow-button:hover {
+        animation: slidebg 2s linear infinite;
+      }
+      @keyframes slidebg {
+        to {
+          background-position: 20vw;
+        }
+      }
