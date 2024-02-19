@@ -30,7 +30,7 @@ body {
 <title>Shitblox 404</title>
 
 <body style="background-color:#5A7377;">
- <h1 style="text-align:center; padding:2px 50px 4px 50px; color: #FFFF00; background-color: #000000; border: #dddddd 6px solid"><img src="/images/shitblox.png" style="max-width: 125px;">The shittiest blocks, Shitblox!</h1>
+ <h1 style="text-align:center; padding:2px 50px 4px 50px; color: #FFFF00; background-color: #000000; border: #dddddd 6px solid"><img src="/images/shit.png" style="max-width: 125px;">The shittiest blocks, Shitblox!</h1>
 </body> 
 <body>
     <div class="content2">
